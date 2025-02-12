@@ -12,5 +12,5 @@ variable "vpc_id" {
 
 variable "build_id" {
   description =  "Build ID to use to identify AMI to use for testing"
-  default = ""
+  default = "spring-petclinic-2"
 }
